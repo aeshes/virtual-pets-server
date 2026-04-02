@@ -16,4 +16,6 @@
 
     <context:component-scan base-package = "org.aoizora.controller" />
 
+    <import resource = "properties.xml" />
+
 </beans:beans>
