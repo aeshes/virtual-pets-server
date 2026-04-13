@@ -16,6 +16,10 @@
 
     <context:component-scan base-package = "org.aoizora.controller" />
 
+    <bean id = "version" class = "java.lang.String">
+        <constructor-arg value = "0.21" />
+    </bean>
+
     <import resource = "properties.xml" />
     <import resource = "servlet-jee.xml" />
     <import resource = "servlet-tx.xml" />
